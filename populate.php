@@ -90,4 +90,10 @@ while( $buf = fgets($fd,1024) )
       }
    }
 }
+  
+fclose($fd);
  
+header('Location: http://localhost/search%20engine/1.php');
+?>
+</body>
+</html>
